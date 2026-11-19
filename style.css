@@ -6,3 +6,158 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #294F91;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #FFFFFF;
+    padding: 25px 50px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #294F91;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    padding: 100px 50px;
+    text-align: center;
+    background-color: #F0F5FC;
+}
+
+main h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 16px;
+    color: #52647D;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 18px 5%;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+/* PARTE SUPERIOR */
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* LOGO */
+
+.logo span {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #294F91;
+    letter-spacing: 1px;
+}
+
+/* BARRA DE PESQUISA */
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+    background-color: #EAF0FA;
+    border-radius: 30px;
+    padding: 0 15px;
+}
+
+.pesquisa input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+    color: #294F91;
+}
+
+.pesquisa button {
+    border: none;
+    background: transparent;
+    color: #294F91;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* ÍCONES */
+
+.icones {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icones a {
+    color: #294F91;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* MENU */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.menu a {
+    color: #294F91;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #A9C6E8;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #294F91;
+}
+
+.logo-flor {
+    width: 25px;
+    height: 35px;
+    object-fit: contain;
+    margin: 0 2px;
+}
