@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
@@ -133,9 +134,10 @@ main p {
 .menu a {
     color: #294F91;
     font-family: Georgia, serif;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     transition: 0.3s;
+    
 }
 
 .menu a:hover {
@@ -145,14 +147,68 @@ main p {
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 0;
+    width: fit-content;
     font-family: Georgia, serif;
-    font-size: 32px;
+    font-size: 50px;
     color: #294F91;
+   
 }
 
 .logo-flor {
-    width: 25px;
-    height: 35px;
+    width: 40px;
+    height: 70px;
     object-fit: contain;
-    margin: 0 2px;
+    margin: 0 -15px;
+    transform: translateY(-5px);
 }
+
+/* BANNER */
+
+.banner-principal {
+    width: 100%;
+    max-width: 1900px;
+    margin: 40px auto 0;
+}
+
+.banner-principal img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* BANNER INFERIOR */
+
+.banner-inferior {
+    width: 100%;
+    max-width: 1700px;
+    margin: 120px auto 0;
+}
+
+.banner-inferior img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ANEL SUPERIOR */
+
+.aneis-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 120px auto 0;
+}
+
+.aneis-superior img {
+    width: 15%;
+    height: 230px;
+    object-fit: cover;
+}
+
