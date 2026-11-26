@@ -202,13 +202,12 @@ main p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
-    margin: 120px auto 0;
+    gap: 40px;
+    margin: 100px auto 0;
 }
 
 .aneis-superior img {
-    width: 15%;
-    height: 230px;
-    object-fit: cover;
+    width: 220px;
+    height: auto;
+    object-fit: contain;
 }
-
